@@ -7,11 +7,16 @@ _Muneeb Azfar Nafees_
 
 ### Introspection
 
-_Describe the challenges you faced and what you learned_
+Working with classes is a new concept; navigating object-oriented programming (OOP) for the first time was quite challenging. Specifically, creating the Dataset class was difficult because it involved handling lists and utilizing another class, BagOfWords, on each item of the list. This layering of classes and their interaction was complicated and took some time to understand fully.
+
+Reading a file was also a new task for me. Although it was relatively straightforward compared to implementing the classes, it required careful attention to ensure the data was read and processed correctly.
+
+Through this project, I learned a great deal about OOP principles, such as using classes and objects to organize code. I now better understand how to structure programs in a more modular and maintainable way. The experience has also highlighted the importance of planning and breaking complex problems into smaller, manageable parts.
 
 ### Resources
 
 1. https://www.w3schools.com/python/module_random.asp
+2. https://www.w3schools.com/python/python_classes.asp
 
 This will be your first programming project! Read this README carefully and follow the instructions.
 

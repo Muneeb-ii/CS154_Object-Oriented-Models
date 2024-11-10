@@ -10,7 +10,7 @@ class BagOfWords:
     preprocessed_text: str
     model: dict[str, int]
 
-    def __init__(self, review):
+    def __init__(self, review: str):
         self.raw_text: str = review
 
     def preprocess_text(self):

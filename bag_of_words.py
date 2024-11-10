@@ -14,6 +14,7 @@ class BagOfWords:
         preprocessed_text (str): The text after preprocessing.
         model (dict[str, int]): A dictionary mapping words to their counts.
     """
+
     raw_text: str
     preprocessed_text: str
     model: dict[str, int]
@@ -45,9 +46,10 @@ class BagOfWords:
         """
         Generates the word count model from the preprocessed text.
         """
-        self.model: dict[str, int] = {}
         for eachWord in [
-            f for f in self.preprocessed_text if f not in list_of_stop_words
+            f
+            for f in self.raw_text.lower().translate(translation_table).split(" ")
+            if f not in list_of_stop_words
         ]:
             self.model[eachWord] = [
                 f

@@ -1,7 +1,7 @@
 from helper import get_file_contents
 
 list_of_stop_words: str = get_file_contents("list_of_stop_words.txt")
-characters_to_remove: list[str] = ["!", ",", ".", "?", ":", ";", "-", "_"]
+characters_to_remove: list[str] = ["!", ",", ".", "?", ":", ";", "-", "_","\n"]
 translation_table = str.maketrans("", "", "".join(characters_to_remove))
 
 

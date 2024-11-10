@@ -1,6 +1,15 @@
 from dataset import Dataset
 
 def read_file_contents(file_name):
+    """
+    Reads the contents of a file and returns a list of lines, skipping the first line.
+
+    Args:
+        file_name (str): The name of the file to read.
+
+    Returns:
+        list[str]: A list of review texts.
+    """
     with open(file_name, "r") as file:
         each_line: list[str] = file.readlines()[1:]
     return each_line

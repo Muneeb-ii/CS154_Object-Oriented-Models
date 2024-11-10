@@ -11,7 +11,7 @@ _Describe the challenges you faced and what you learned_
 
 ### Resources
 
-_List the people and resources you used to complete the project_
+1. https://www.w3schools.com/python/module_random.asp
 
 This will be your first programming project! Read this README carefully and follow the instructions.
 

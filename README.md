@@ -177,4 +177,9 @@ In the main module, write your own functions to read the csv file and get the li
 * Use a debugger to ensure that the code behave as intended. 
 
 ## Feedback
-
+- [10] Code Quality and Documentation
+- [10] Version Control Practice
+- [40] bag_of_words
+- [30] dataset
+- [10] main
+- Project 5: 100 points - Perfect!!

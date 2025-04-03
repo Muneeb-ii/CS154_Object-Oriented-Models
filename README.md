@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/eSOd7i2b)
 # Project 5 - Models
 
 ### Name
@@ -20,8 +19,6 @@ Through this project, I learned a great deal about OOP principles, such as using
 
 This will be your first programming project! Read this README carefully and follow the instructions.
 
-
-### *DO NOT EDIT BELOW THIS LINE*
 ---
 
 
@@ -111,75 +108,3 @@ When you call the `preprocess_samples` method in BagOfWords, it should then call
 ### Main
 
 In the main module, write your own functions to read the csv file and get the list of reviews. Then create a dataset object that takes in the list of reviews you read from the csv file. Call the `preprocess_sample` method from the dataset and print the training and test set samples. 
-
-
-## Rubric
-
-**1. Code Quality and Documentation** - **10 points**
-
-- **Code Readability and Organization**: *5 points*
-  - Meaningful variable and function names
-  - Modules and classes created as specified
-- **Comments and Docstrings**: *5 points*
-  - Clear explanations of functions and complex code sections
-  - Proper use of docstrings for all functions
-
-**2. Version Control Practice** - **10 points**
-
-- **Commit Numbers and Sizes**: *5 points*
-  - The commits are made at regular intervals and of coherent pieces 
-- **Commit Messages**: *5 points*
-  - Easy to follow along the commit history
-
-**3. bag_of_words ** - **40 points**
-
-- **Attributes**: *10 points*
-  - The specified attributes are created in the class
-- **Constructor**: *10 points*
-  - The constructor assigns the specific values in the attributes
-- **Methods**: *20 points*
-  - All specified methods are implemented and use the `self` keyword
-
-**4. dataset ** - **30 points**
-
-- **Attributes** - *10 points*
-    - The specified attributes are created in class
-- **Constructor** - *10 points*
-    - The samples are randomized
-    - The training and test set are split according to the split_ratio
-- **Methods** - *10 points*
-    - The `preprocess_sample` calls the necessary methods in `BagOfWords` object.
-  
-**5. main ** - **10 points**
-
-- **read_file** - *5 points*
-  - A function to read the reviews from the csv files is created. 
-- **imports** - *2 points*
-  - Necessary modules, classes, and functions are imported
-- **creating objects** - *3 points*
-  - `Dataset` objects are created and the necessary methods are called
-
-**Total Points: 100**
-
-
-## Tips On How To Excel
-
-
-### General Advise
-
-* Start early!
-* Ask for help when stuck. Remember the 30 minute rule? No? Look into the syllabus.
-* Break down the task into smaller tasks and try to implement them in Jupyter Notebook. Once implemented in the notebook successfully, transfer it into `.py` file.
-* Run the `.py` file to make sure the new addition did not break any changes.
-* After implementing each small task, commit changes.
-* Review the notebooks from classes available on GitHub if you cannot remember syntax for anything.
-* Run your code multiple times and vary the inputs to ensure it works as intended. 
-* Use a debugger to ensure that the code behave as intended. 
-
-## Feedback
-- [10] Code Quality and Documentation
-- [10] Version Control Practice
-- [40] bag_of_words
-- [30] dataset
-- [10] main
-- Project 5: 100 points - Perfect!!
